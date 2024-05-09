@@ -1,0 +1,1 @@
+export const logo = "https://algorezmi.com/wp-content/uploads/2023/03/LOGO1.png"

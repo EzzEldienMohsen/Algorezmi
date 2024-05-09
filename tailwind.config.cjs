@@ -4,10 +4,10 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {},
-    theme: {
+    
     fontFamily: {
-  Nunito:["Nunito","sans-serif"]
-    }}
+  Nunito:["Nunito , sans-serif","sans-serif"]
+    }
   },
   plugins: [require('daisyui'), require('@tailwindcss/typography')],
 };
