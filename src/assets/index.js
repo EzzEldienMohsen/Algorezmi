@@ -3,3 +3,5 @@ export const mobile = "https://algorezmi.com/wp-content/uploads/2023/03/app-12.p
 export const mobile2 =
   'https://algorezmi.com/wp-content/uploads/2023/03/app-developer-icon-small-02.png';
 export const web = 'https://algorezmi.com/wp-content/uploads/2023/03/app-11-1.png';
+export const web2 =
+  'https://algorezmi.com/wp-content/uploads/2023/03/app-developer-icon-small-04.png';

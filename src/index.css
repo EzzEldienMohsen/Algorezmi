@@ -43,9 +43,3 @@
 .motion {
   animation: moveUp 3s ease infinite; 
 }
-.theImage {
-  background-image: url("https://algorezmi.com/wp-content/uploads/2023/03/app-03.png");
-  background-size: cover;
-
-  
-}
