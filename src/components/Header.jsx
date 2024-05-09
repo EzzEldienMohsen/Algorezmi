@@ -17,7 +17,7 @@ const Header = () => {
         data-aos-duration="2000"
         className="flex justify-between items-center py-4 px-8"
       >
-        <Link to="/">
+        <Link to="/home">
           <img src={logo} alt="logo" className="w-32" />
         </Link>
         <NavBar />

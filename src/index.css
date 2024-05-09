@@ -2,3 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.illusion{
+  opacity: 1; 
+  background-color: #fff;
+  background-image: 
+    linear-gradient(33deg, #0dcaf036 30%, #0d6dfd86), 
+    linear-gradient(#6710f294, rgba(255, 255, 255, 0.62)), 
+    linear-gradient(90deg, transparent 63%, white), 
+    url("https://algorezmi.com/wp-content/uploads/2023/03/app-02.png"); /* Background image */
+  background-position: 
+    0 0, 
+    0 0, 
+    0 0,
+    50% 0; 
+  background-size: 
+    auto, 
+    auto,
+    auto,
+    cover;
+  background-attachment: 
+    scroll,
+    scroll, 
+    scroll, 
+    fixed;  
+  font-family: 'Lato', sans-serif; 
+  position: relative; 
+  box-shadow: inset 0 0 75px 7px rgba(0, 0, 0, .33); 
+}
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.motion {
+  animation: moveUp 3s ease infinite; 
+}
