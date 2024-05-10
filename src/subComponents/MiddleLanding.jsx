@@ -8,8 +8,8 @@ const MiddleLanding = () => {
         AOS.refresh();
     },[])
   return (
-    <div className="bg-[white] px-4 py-6 flex flex-col justify-center items-center text-white">
-      <div className="theImage flex flex-col justify-center items-center my-6  p-8 w-full">
+    <div className="bg-[white] px-2 py-6 flex flex-col justify-center items-center text-white">
+      <div className="theImage flex flex-col justify-center items-center my-6 px-4 py-8 w-full">
         <h1
           data-aos="zoom-out-up"
           data-aos-duration="2000"
@@ -26,7 +26,7 @@ const MiddleLanding = () => {
           result-oriented teams offer these services to clients globally.
         </p>
         <div
-          data-aos="fade-down-right"
+          data-aos="fade-down"
           data-aos-delay="2000"
           className="flex justify-between mb-4 items-center border-[#0C71C3] shadow-xl border-2 px-4 py-2 rounded-md"
         >
@@ -43,7 +43,7 @@ const MiddleLanding = () => {
           </div>
         </div>
         <div
-          data-aos="fade-up-left"
+          data-aos="fade-up"
           data-aos-delay="2000"
           className="flex justify-between flex-row-reverse items-center shadow-xl border-[#0C71C3] border-2 px-4 py-2 rounded-md"
         >

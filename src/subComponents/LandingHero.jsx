@@ -8,7 +8,7 @@ const LandingHero = () => {
     AOS.init()
   },[])
   return (
-    <div className="illusion flex flex-col justify-center items-center p-10">
+    <div className="illusion flex flex-col justify-center items-center px-5 py-10">
       <h2 className="motion text-white font-Nunito font-semibold tracking-wider text-2xl md:text-3xl lg:text-5xl text-center">
         We Transform Your Unique Ideas Into Mobile And Web Apps That Get The Job
         Done.

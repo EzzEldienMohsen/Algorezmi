@@ -2,7 +2,7 @@ import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 
 const LastLandingPart = () => {
   return (
-    <div className="flex justify-center items-center shadow-inner p-12 bg-white rounded-sm">
+    <div className="flex justify-center items-center shadow-inner p-8 bg-white rounded-sm">
       <div className="bg-[#28283f] flex flex-col justify-between items-center motion w-[80vw] rounded-md shadow-2xl px-8 py-6 ">
         <h1 className="text-[#0C71C3] font-Nunito text-lg text-start md:text-center md:text-2xl lg:text-3xl tracking-wide font-bold">
           Ready To Take Your Business To Another Level ?
