@@ -1,9 +1,10 @@
-import { LandingHero, MiddleLanding } from "../subComponents";
+import { LandingHero, LastLandingPart, MiddleLanding } from "../subComponents";
 
 const Landing = () => {
   return <div className="mt-[97px]">
   <LandingHero/>
   <MiddleLanding/>
+  <LastLandingPart/>
   </div>;
 };
 

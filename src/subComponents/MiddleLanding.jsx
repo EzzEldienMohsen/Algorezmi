@@ -52,7 +52,7 @@ const MiddleLanding = () => {
             <h1 className="text-[#052c65] font-bold mb-2 md:mb-4 font-Nunito text-lg md:text-xl lg:text-2xl">
               WEB DEVELOPMENT
             </h1>
-            <p className="text-[#052c65] font-light font-Nunito text-md md:text-lg lg:text-xl">
+            <p className="text-[#052c65] bg-white font-light font-Nunito text-md md:text-lg lg:text-xl">
               Leverage modern web frameworks to develop and deploy feature-rich
               web apps that digitize your business services, expand your reach,
               and excel among competitors.
