@@ -79,3 +79,6 @@
   background-repeat: no-repeat;
   background-position:top center;
 }
+.test{
+  background-image: conic-gradient(from 180deg at bottom,#2b87da 0%,#29c4a9 100%)!important;
+}

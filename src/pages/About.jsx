@@ -1,10 +1,11 @@
-import { AboutHero, AboutMiddle } from "../subComponents";
+import { AboutFinal, AboutHero, AboutMiddle } from "../subComponents";
 
 const About = () => {
   return (
     <div className="mt-[97px]">
       <AboutHero />
       <AboutMiddle/>
+      <AboutFinal/>
     </div>
   );
 }
