@@ -14,7 +14,7 @@ const Header = () => {
     AOS.refresh();
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      const threshold = 480;
+      const threshold = 300;
       setIsScrolled(scrollPosition > threshold);}
       window.addEventListener('scroll', handleScroll);
 
@@ -34,7 +34,7 @@ const Header = () => {
         data-aos-duration="2000"
         className="flex justify-between items-center py-4 px-8"
       >
-        <Link to="/home">
+        <Link to="/">
           <img src={logo} alt="logo" className="w-32" />
         </Link>
         <NavBar />

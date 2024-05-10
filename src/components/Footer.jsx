@@ -17,7 +17,7 @@ const Footer = () => {
           <Link to="/">home</Link>
         </li>
         <li className="text-white hover:text-[#0d6efd] text-md md:text-lg lg:text-xl font-Nunito tracking-wide capitalize">
-          <Link to="/">about us</Link>
+          <Link to="/about">about us</Link>
         </li>
         <li className="text-white hover:text-[#0d6efd] text-md md:text-lg lg:text-xl font-Nunito tracking-wide capitalize">
           <Link to="/">our projects</Link>

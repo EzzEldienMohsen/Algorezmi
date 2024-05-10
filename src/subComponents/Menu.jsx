@@ -14,7 +14,7 @@ const Menu = () => {
         className="dropdown-content z-[1] menu p-2 shadow-xl bg-base-100 rounded-box w-[95vw]"
       >
         <li className="text-[#00000099] hover:text-[#0d6efd] text-lg font-Nunito tracking-wide capitalize">
-          <Link to="/">about us</Link>
+          <Link to="/about">about us</Link>
         </li>
         <li className="text-[#00000099] hover:text-[#0d6efd] text-lg font-Nunito tracking-wide capitalize">
           <Link to="/">our projects</Link>

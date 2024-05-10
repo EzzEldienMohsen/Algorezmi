@@ -1,5 +1,7 @@
 export {default as NavBar } from "./NavBar"
 export {default as Menu } from "./Menu"
 export {default as LandingHero } from "./LandingHero"
+export {default as AboutHero } from "./AboutHero"
+export {default as AboutMiddle } from "./AboutMiddle"
 export {default as MiddleLanding } from "./MiddleLanding"
 export {default as LastLandingPart } from "./LastLandingPart"
